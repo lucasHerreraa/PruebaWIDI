@@ -3,9 +3,10 @@ body{
 }
 
 #texto{
-    text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+    text-decoration: none;
+    color: white;
    
 
 }
@@ -16,4 +17,15 @@ body{
     background-color: green;
     padding: 10px 20px;
     white-space: nowrap;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 12px 1px;
+    margin: 50px 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+   
 }
